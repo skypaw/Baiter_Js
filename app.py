@@ -22,11 +22,14 @@ def login_user():
     return r
 
 
-@app.errorhandler(500)
-@app.errorhandler(404)
-def not_found(e):
-    app.logger.warning(request.user_agent)
-    app.logger.warning(request.headers)
+@app.route("/<path:path>")
+def catch_all(pages):
+    log_dictionary = {"User Agent": request.user_agent,
+                      "Ip": request.remote_addr,
+                      "Path": request.full_path,
+                      "Method": request.method
+                      }
+    app.logger.warning(log_dictionary.__str__())
 
 
 @app.route("/register", methods=['GET', 'POST'])
