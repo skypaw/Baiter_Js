@@ -30,6 +30,7 @@ def log(response):
                       "Method": request.method
                       }
     app.logger.warning(log_dictionary.__str__())
+    return response
 
 
 @app.route("/<path:path>", methods=['GET', 'POST', 'HEAD', 'PUT', 'DELETE'])
