@@ -1,4 +1,4 @@
-from flask import Flask, make_response, render_template, request, redirect, url_for
+from flask import Flask, make_response, render_template, request, redirect, url_for, render_template_string
 
 app = Flask(__name__)
 
@@ -25,8 +25,15 @@ def login_user():
 @app.errorhandler(500)
 @app.errorhandler(404)
 def not_found(e):
-    app.logger.warning(request.user_agent)
-    app.logger.warning(request.headers)
+    app.logger.info(request.user_agent)
+    app.logger.info(request.headers)
+    app.logger.info(request.remote_addr)
+
+
+@app.route('/<path:path>')
+def catch_all_paths():
+    app.logger.warning(request.remote_addr, request.method, request.full_path, request.user_agent)
+    return render_template_string('404 Not found')
 
 
 @app.route("/register", methods=['GET', 'POST'])
