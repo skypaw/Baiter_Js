@@ -23,7 +23,7 @@ def login_user():
 
 
 @app.after_request
-def log():
+def log(response):
     log_dictionary = {"User Agent": request.user_agent.__str__(),
                       "Ip": request.remote_addr,
                       "Path": request.full_path,
