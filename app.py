@@ -25,7 +25,6 @@ def log(response):
                       "Ip": request.remote_addr,
                       "Path": request.full_path,
                       "Method": request.method,
-                      "Request": request.json
                       }
     app.logger.warning(log_dictionary.__str__())
     return response
