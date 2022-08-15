@@ -22,17 +22,16 @@ def login_user():
     return r
 
 
-def log(function):
+@app.after_request
+def log():
     log_dictionary = {"User Agent": request.user_agent.__str__(),
                       "Ip": request.remote_addr,
                       "Path": request.full_path,
                       "Method": request.method
                       }
     app.logger.warning(log_dictionary.__str__())
-    return function
 
 
-@log
 @app.route("/<path:path>", methods=['GET', 'POST', 'HEAD', 'PUT', 'DELETE'])
 def catch_all(path):
     return render_template_string('Found')
