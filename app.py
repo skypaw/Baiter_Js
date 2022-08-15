@@ -5,7 +5,6 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET'])
 def index():
-    app.logger.warning(request.user_agent)
     r = make_response(render_template('index.html'))
     r.headers.set('X-Powered-By', 'Express')
     return r
@@ -13,11 +12,9 @@ def index():
 
 @app.route("/login", methods=['GET', 'POST'])
 def login_user():
-    app.logger.warning(request.user_agent)
     r = make_response(render_template('login.html'))
     r.headers.set('X-Powered-By', 'Express')
     if request.method == 'POST':
-        app.logger.warning(request.form)
         return redirect(url_for('index'))
     return r
 
@@ -40,11 +37,9 @@ def catch_all(path):
 
 @app.route("/register", methods=['GET', 'POST'])
 def register_user():
-    app.logger.info(request.user_agent)
     r = make_response(render_template('register.html'))
     r.headers.set('X-Powered-By', 'Express')
     if request.method == 'POST':
-        app.logger.warn(request.form)
         return redirect(url_for('index'))
     return r
 
