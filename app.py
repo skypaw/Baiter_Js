@@ -30,6 +30,7 @@ def catch_all(path):
                       "Method": request.method
                       }
     app.logger.warning(log_dictionary.__str__())
+    return render_template_string('Found')
 
 
 @app.route("/register", methods=['GET', 'POST'])
