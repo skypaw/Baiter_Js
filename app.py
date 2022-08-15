@@ -31,12 +31,9 @@ def not_found(e):
 
 
 @app.route('/<path:path>')
-def catch_all(path):
-    app.logger.info(request.user_agent)
-    app.logger.info(request.headers)
-    app.logger.info(request.remote_addr)
-    app.logger.info(path)
-    return render_template_string('Not found')
+def catch_all_paths():
+    app.logger.warning(request.remote_addr, request.method, request.full_path, request.user_agent)
+    return render_template_string('404 Not found')
 
 
 @app.route("/register", methods=['GET', 'POST'])
