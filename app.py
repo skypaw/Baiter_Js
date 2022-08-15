@@ -24,7 +24,7 @@ def login_user():
 
 @app.route("/<path:path>")
 def catch_all(path):
-    log_dictionary = {"User Agent": request.user_agent,
+    log_dictionary = {"User Agent": request.user_agent.__str__(),
                       "Ip": request.remote_addr,
                       "Path": request.full_path,
                       "Method": request.method
