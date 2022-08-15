@@ -23,7 +23,7 @@ def login_user():
 
 
 @app.route("/<path:path>")
-def catch_all(pages):
+def catch_all(path):
     log_dictionary = {"User Agent": request.user_agent,
                       "Ip": request.remote_addr,
                       "Path": request.full_path,
