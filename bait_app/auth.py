@@ -1,7 +1,7 @@
 from flask import Blueprint, request, make_response, render_template, redirect, url_for
 from .decorators import set_headers
 
-bp = Blueprint("auth", __name__, url_prefix='')
+bp = Blueprint("auth", __name__)
 
 
 @bp.route("/register", methods=['GET', 'POST'])
