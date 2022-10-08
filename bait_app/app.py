@@ -1,9 +1,11 @@
 from flask import Flask, make_response, render_template, render_template_string, request
 
 from bait_app import auth
+from .wordpress import mock_wordpress
 
 app = Flask(__name__)
 app.register_blueprint(auth.bp)
+app.register_blueprint(mock_wordpress.bp)
 
 
 @app.route("/", methods=['GET'])
