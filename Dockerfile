@@ -9,4 +9,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-CMD ["gunicorn"  , "-b", "0.0.0.0:5000", "bait_app.app:app"]
+CMD ["gunicorn"  , "-b", "0.0.0.0:5000", "--config", "python:bait_app.gunicorn", "bait_app.app:app"]

@@ -1,4 +1,4 @@
-from flask import Blueprint, request, redirect, url_for
+from flask import Blueprint, request, redirect, url_for, current_app
 from .decorators import set_headers
 
 bp = Blueprint("auth", __name__)
