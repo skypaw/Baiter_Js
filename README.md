@@ -12,11 +12,14 @@ The most common malicious requests will be counted and mocked.
 #### Project will contain:
 
 - Web vulnerabilities on port `80`:
-    - Wordpress 
-    - PHP
-    - Path traversal
-    - Cross Site Scripting
-- mock SQL db on port `8123`
+    - For bot requests:
+      - Wordpress 
+      - PHP
+    - For user:
+      - SQL Injection
+      - Path traversal
+      - Cross Site Scripting
+- mock SQL db on port `3306`
 - mock SSH client on port `22`
 
 ## Getting Started
