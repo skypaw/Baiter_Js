@@ -69,7 +69,7 @@
     "response": "static-file"
   },
   "/wordpress/license.txt?": {
-    "response": null
+    "response": "static-file"
   },
   "/wordpress/wp-includes/wlwmanifest.xml?": {
     "response": "static-file"
@@ -168,7 +168,7 @@
     "response": null
   },
   "/wp-includes/ID3/license.txt?": {
-    "response": null
+    "response": "static-file"
   },
   "/wp-includes/config.bak.php?": {
     "response": null

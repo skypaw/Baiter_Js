@@ -45,13 +45,18 @@ def response_from_config(full_path, method):
     if full_path in CONFIG:
         response_type = CONFIG[full_path]['response']
         if response_type == 'static-file':
-            response = from_static()
+            file_name = full_path.split("/")[-1][:-1]  # last part of address, without question mark
+            response = from_static(file_name)
     else:
         response = make_response(full_path)
     return response
 
 
-def from_static():
-    with open('bait_app/wordpress/static/wlwmanifest.xml', 'r') as file:
+def from_static(file_name):
+    with open(f'bait_app/wordpress/static/{file_name}', 'r') as file:
         a = file.read()
-    return Response(a, mimetype='text/xml')
+    file_extension = file_name.split('.')[1]
+    if file_extension == 'txt':
+        return Response(a, mimetype='text/txt')
+    if file_extension == 'xml':
+        return Response(a, mimetype='text/xml')
