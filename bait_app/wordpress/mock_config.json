@@ -1,63 +1,78 @@
 {
   "/2015/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/2016/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/2017/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/2018/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/2019/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/2020/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/2021/wp-includes/wlwmanifest.xml?": {
+    "response": "static-file"
+  },
+  "/WORDPRESS?": {
+    "response": null
+  },
+  "/WP?": {
+    "response": null
+  },
+  "/WordPress?": {
+    "response": null
+  },
+  "/Wordpress?": {
+    "response": null
+  },
+  "/Wp?": {
     "response": null
   },
   "/blog/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/blog/wp-login.php?": {
     "response": null
   },
   "/cms/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/media/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/news/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/shop/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/site/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/sito/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/test/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/web/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/website/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/wordpress/license.txt?": {
     "response": null
   },
   "/wordpress/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/wordpress/wp-login.php?": {
     "response": null
@@ -174,7 +189,7 @@
     "response": null
   },
   "/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/wp-includes/wpconfig.bak.php?act=sf": {
     "response": null
@@ -186,7 +201,7 @@
     "response": null
   },
   "/wp/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/wp/wp-login.php?": {
     "response": null
@@ -195,10 +210,10 @@
     "response": null
   },
   "/wp1/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/wp2/wp-includes/wlwmanifest.xml?": {
-    "response": null
+    "response": "static-file"
   },
   "/wp?": {
     "response": null
